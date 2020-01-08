@@ -1,0 +1,307 @@
+
+body{
+    font-family: "Cambria Math";
+}
+
+.container{
+    max-width: 80%;
+}
+
+/*header*/
+
+
+/*nav*/
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 1.5rem 1rem;
+}
+
+.navbar-brand img{
+    width: 255px;
+}
+
+.fa-whatsapp{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #1f95ab;
+    float: left;
+}
+
+.number{
+    float: right;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+/*main*/
+
+.bg-transparent {
+    background-color: #343a4000!important;
+}
+
+.jumbotron {
+    padding: 14rem 0 8rem 0;
+    background-color: #16afbf14;
+    border-radius: 0;
+    border: 0;
+}
+
+.bg-display{
+    width: 100%;
+    background-image: url("img/slider1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.display-title {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #393a3a;
+}
+
+.display-subtitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #777777;
+}
+
+.btn-action {
+    color: #fff;
+    background-color: #1f95ab;
+    border-color: #1f95ab;
+}
+
+.btn-action:hover{
+    color: #0f4f5b;
+    background-color: white;
+    border-color: #0f4f5b;
+}
+
+.margin-action{
+    margin: 1.5rem 0;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+}
+
+.separator{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+/*footer*/
+
+.location{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+/*@media*/
+
+@media (max-width: 1470px) {
+    .display-title {
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 1340px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+}
+
+@media (max-width: 1260px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+    .display-title {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media (max-width: 1230px) {
+    .navbar-brand img {
+        width: 225px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+    .fa-whatsapp {
+        font-size: 1.4rem;
+    }
+    .display-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1160px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.6rem;
+        padding-left: 0.6rem;
+    }
+    .number {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 1120px) {
+    .display-title {
+        font-size: 2.6rem;
+    }
+    .display-subtitle {
+        font-size: 1.1rem;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 0.8rem 2.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 90%;
+    }
+    .jumbotron {
+        padding: 10rem 0 2rem 0;
+    }
+    .navbar-toggler i{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(31, 150, 172, 0.81);
+        border: 0;
+    }
+    .margin-action {
+        margin: 1rem 0;
+    }
+    .fa-whatsapp {
+        font-size: 1.8rem;
+        margin-right: 5px;
+    }
+    .fa-whatsapp-mobile{
+        color: #393a3a;
+        font-weight: 600;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 8rem 0 0 0;
+    }
+    .display-title {
+        font-size: 1.6rem;
+    }
+    .display-subtitle {
+        font-size: 1rem;
+    }
+    .margin-action {
+        margin: 1rem 0;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 0.7rem 2rem;
+        font-size: 0.9rem;
+    }
+    .navbar-collapse {
+        background-color: white;
+    }
+
+}
+
+@media (max-width: 422px) {
+    .bg-transparent {
+        background-color: white !important;
+    }
+    .navbar {
+        padding: 0.8rem 0;
+    }
+    .navbar-collapse {
+        margin-top: 14px;
+    }
+    .jumbotron {
+        padding: 10rem 0 4rem 0;
+    }
+    .display-title {
+        font-size: 2.2rem;
+    }
+    .display-subtitle {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 322px) {
+    .navbar-brand img {
+        width: 175px;
+    }
+    .navbar-toggler i {
+        font-size: 1.6rem;
+    }
+    .display-title {
+        font-size: 1.6rem;
+    }
+    .display-subtitle {
+        font-size: 0.8rem;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 0.7rem 2rem;
+        font-size: 0.8rem;
+    }
+    .fa-whatsapp {
+        font-size: 1.5rem;
+        margin-right: 5px;
+    }
+    .fa-whatsapp-mobile {
+        font-size: 0.8rem;
+    }
+    .jumbotron {
+        padding: 8rem 0 2rem 0;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+}
