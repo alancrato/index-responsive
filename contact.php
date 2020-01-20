@@ -1,68 +1,83 @@
 <!-- START CONTACT -->
-<section class="py-5 bg-light-lighten border-top border-bottom border-light">
+<section class="py-5 bg-light-lighten border-top border-bottom border-light" id="contato">
+    <div class="container" id="contato">
+        <div class="row featurette text-center">
+            <div class="col-md-12">
+                <div class="term-about">Contato</div>
+                <div class="border-title-contact"></div>
+                <p class="lead">Envie sua mensagem através do formulário de contato
+                    ou pelo telefone, e-mail e whtasapp</p>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row text-center mt-3 mb-5">
+            <div class="col-sm-12 col-md-3 col-lg-4">
                 <div class="text-center">
-                    <h3>Get In <span class="text-primary">Touch</span></h3>
-                    <p class="text-muted mt-2">Please fill out the following form and we will get back to you shortly. For more
-                        <br>information please contact us.</p>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5585991303003&text=Olá,%20encontrei%20o%20contato%20do%20Dr.%20Alan%20no%20site,%20gostaria%20de%20tirar%20uma%20dúvida." target="_blank">
+                        <div class="icon-main"><i class="fas fa-phone-alt"></i></div>
+                        <div class="subtitle-contact">(85) 9 91303003 <br/> (85) 3046.3040</div>
+                        <div class="text-muted-contact">Telefone</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-4">
+                <div class="text-center">
+                    <a href="mailto:contato@dralanarruda.com.br?subject=Olá,%20encontrei%20o%20contato%20do%20Dr.%20Alan%20no%20site,%20gostaria%20de%20tirar%20uma%20dúvida." target="_blank">
+                        <div class="icon-main"><i class="fas fa-envelope"></i></div>
+                        <div class="subtitle-contact">contato@dralanarruda.com.br</div>
+                        <div class="text-muted-contact">E-mail</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="text-center">
+                    <a href="#localizacao">
+                        <div class="icon-main"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="subtitle-contact">Rua Prof. Dias da Rocha, 1511. Dionísio Torres - Fortaleza - Ce</div>
+                        <div class="text-muted-contact">Endereço</div>
+                    </a>
                 </div>
             </div>
         </div>
 
-        <div class="row align-items-center mt-3">
-            <div class="col-md-4">
-                <p class="text-muted"><span class="font-weight-bold">Customer Support:</span><br> <span class="d-block mt-1">+1 234 56 7894</span></p>
-                <p class="text-muted mt-4"><span class="font-weight-bold">Email Address:</span><br> <span class="d-block mt-1">info@gmail.com</span></p>
-                <p class="text-muted mt-4"><span class="font-weight-bold">Office Address:</span><br> <span class="d-block mt-1">4461 Cedar Street Moro, AR 72368</span></p>
-                <p class="text-muted mt-4"><span class="font-weight-bold">Office Time:</span><br> <span class="d-block mt-1">9:00AM To 6:00PM</span></p>
-            </div>
-
-            <div class="col-md-8">
+        <div class="row">
+            <div class="col-12">
                 <form>
-                    <div class="row mt-4">
-                        <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
                             <div class="form-group">
-                                <label for="fullname">Your Name</label>
-                                <input class="form-control form-control-light" type="text" id="fullname" placeholder="Name...">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-sm-12 col-lg-6">
                             <div class="form-group">
-                                <label for="emailaddress">Your Email</label>
-                                <input class="form-control form-control-light" type="email" required="" id="emailaddress" placeholder="Enter you email...">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row mt-1">
-                        <div class="col-lg-12">
-                            <div class="form-group">
-                                <label for="subject">Your Subject</label>
-                                <input class="form-control form-control-light" type="text" id="subject" placeholder="Enter subject...">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mt-1">
-                        <div class="col-lg-12">
-                            <div class="form-group">
-                                <label for="comments">Message</label>
-                                <textarea id="comments" rows="4" class="form-control form-control-light" placeholder="Type your message here..."></textarea>
+                    <div class="form-group">
+                        <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Assunto" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" name="mensagem" id="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <div class="button-contact">
+                                <input type="submit" class="btn btn-action btn-contact shadow-lg" value="Enviar Mensagem">
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mt-2">
-                        <div class="col-12 text-right">
-                            <button class="btn btn-primary">Send a Message <i
-                                    class="mdi mdi-telegram ml-1"></i> </button>
-                        </div>
-                    </div>
                 </form>
             </div>
         </div>
+
     </div>
 </section>
 <!-- END CONTACT -->
