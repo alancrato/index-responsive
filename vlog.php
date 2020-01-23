@@ -9,48 +9,36 @@
 <div class="album py-5 bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-5">
                 <div class="card mb-4 shadow-sm">
-                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/ARyzQFL1jwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/eLS-MCEj_gc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
-                        <p class="card-text faq-answer mb-4 pb-1">Bursite é a inflamação das bursas do Ombro, bolsas que recobrem os tendões do ombro.</p>
+                        <p class="card-text faq-answer mb-4 pb-1">O que é a Bursite do Ombro? Como tratá-la?</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-action btn-blog shadow-lg">Ver Canal</button>
+                                <a href="https://www.youtube.com/channel/UCatsykwtSfiy1H2UWMSrn1g" target="_blank" class="btn btn-action btn-blog shadow-lg">Ver Canal</a>
                             </div>
-                            <small class="text-muted">18/01</small>
+                            <small class="text-muted">22/01</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-12 col-md-5">
                 <div class="card mb-4 shadow-sm">
-                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/ARyzQFL1jwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/UotII7ibgCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
-                        <p class="card-text faq-answer mb-4 pb-1">O tratamento de lesões ou rupturas dos tendões do manguito rotador.</p>
+                        <p class="card-text faq-answer mb-4 pb-1">O que é a Síndrome do Manguito Rotador?</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-action btn-blog shadow-lg">Ver Canal</button>
+                                <a href="https://www.youtube.com/channel/UCatsykwtSfiy1H2UWMSrn1g" target="_blank" class="btn btn-action btn-blog shadow-lg">Ver Canal</a>
                             </div>
-                            <small class="text-muted">18/01</small>
+                            <small class="text-muted">22/01</small>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/ARyzQFL1jwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text faq-answer mb-4 pb-1">A luxação ou deslocamento do ombro pode ocorrer uma única vez ou repetidamente.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-action btn-blog shadow-lg">Ver Canal</button>
-                            </div>
-                            <small class="text-muted">18/01</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-sm-12 col-md-1"></div>
         </div>
     </div>
 </div>

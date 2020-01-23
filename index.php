@@ -92,10 +92,27 @@
             <div class="col-12">
                 <div class="carousel">
                     <div class="card card-blog">
-                        <img src="img/blog/post-1.jpg" class="card-img" alt="post 1">
+                        <img src="img/tratamentos/artroscopia.jpg" class="card-img" alt="Artroscopia">
                         <div class="card-img-overlay">
                             <div class="btn btn-action btn-blog shadow-lg">
-                                Tratamento 1
+                                Artroscopia
+                            </div>
+                            <div class="top-card-footer-blog">
+                                <div class="card-footer">
+                                    <div class="title-blog">
+                                        <a href="javascript:void(0);">
+                                            Cirurgia artroscópica do ombro
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-blog">
+                        <img src="img/tratamentos/bursiteetendinite.jpg" class="card-img" alt=" Bursite e Tendinite">
+                        <div class="card-img-overlay">
+                            <div class="btn btn-action btn-blog shadow-lg">
+                                Bursite e Tendinite
                             </div>
                             <div class="top-card-footer-blog">
                                 <div class="card-footer">
@@ -109,16 +126,16 @@
                         </div>
                     </div>
                     <div class="card card-blog">
-                        <img src="img/blog/post-2.jpg" class="card-img" alt="post 1">
+                        <img src="img/tratamentos/lesao-tendinosa.jpg" class="card-img" alt="Lesão Tendinosa">
                         <div class="card-img-overlay">
                             <div class="btn btn-action btn-blog shadow-lg">
-                                Tratamento 2
+                                Lesão Tendinosa
                             </div>
                             <div class="top-card-footer-blog">
                                 <div class="card-footer">
                                     <div class="title-blog">
                                         <a href="javascript:void(0);">
-                                            Tratamento de bursite e tendinite do ombro
+                                            Reparo de lesão tendinosa do ombro
                                         </a>
                                     </div>
                                 </div>
@@ -126,16 +143,16 @@
                         </div>
                     </div>
                     <div class="card card-blog">
-                        <img src="img/blog/post-1.jpg" class="card-img" alt="post 1">
+                        <img src="img/tratamentos/lesoes-do-ombro.jpg" class="card-img" alt="Lesões do Obmbro">
                         <div class="card-img-overlay">
                             <div class="btn btn-action btn-blog shadow-lg">
-                                Tratamento 3
+                                Lesões do Obmbro
                             </div>
                             <div class="top-card-footer-blog">
                                 <div class="card-footer">
                                     <div class="title-blog">
                                         <a href="javascript:void(0);">
-                                            Tratamento de bursite e tendinite do ombro
+                                            Lesões do ombro do atleta
                                         </a>
                                     </div>
                                 </div>
@@ -143,16 +160,16 @@
                         </div>
                     </div>
                     <div class="card card-blog">
-                        <img src="img/blog/post-2.jpg" class="card-img" alt="post 1">
+                        <img src="img/tratamentos/ombro-deslocado.jpg" class="card-img" alt="Ombro deslocado">
                         <div class="card-img-overlay">
                             <div class="btn btn-action btn-blog shadow-lg">
-                                Tratamento 4
+                                Ombro deslocado
                             </div>
                             <div class="top-card-footer-blog">
                                 <div class="card-footer">
                                     <div class="title-blog">
                                         <a href="javascript:void(0);">
-                                            Tratamento de bursite e tendinite do ombro
+                                            Tratamento cirúrgico  de luxação do ombro
                                         </a>
                                     </div>
                                 </div>
@@ -160,33 +177,16 @@
                         </div>
                     </div>
                     <div class="card card-blog">
-                        <img src="img/blog/post-1.jpg" class="card-img" alt="post 1">
+                        <img src="img/tratamentos/posturais-do-ombro.jpg" class="card-img" alt="Posturais do Ombro">
                         <div class="card-img-overlay">
                             <div class="btn btn-action btn-blog shadow-lg">
-                                Tratamento 5
+                                Posturais do Ombro
                             </div>
                             <div class="top-card-footer-blog">
                                 <div class="card-footer">
                                     <div class="title-blog">
                                         <a href="javascript:void(0);">
-                                            Tratamento de bursite e tendinite do ombro
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card card-blog">
-                        <img src="img/blog/post-2.jpg" class="card-img" alt="post 1">
-                        <div class="card-img-overlay">
-                            <div class="btn btn-action btn-blog shadow-lg">
-                                Tratamento 6
-                            </div>
-                            <div class="top-card-footer-blog">
-                                <div class="card-footer">
-                                    <div class="title-blog">
-                                        <a href="javascript:void(0);">
-                                            Tratamento de bursite e tendinite do ombro
+                                            Problemas posturais do ombro
                                         </a>
                                     </div>
                                 </div>

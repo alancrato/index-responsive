@@ -2,16 +2,22 @@
     <div class="mt-5">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-5">
-                <div class="term-about">Quem Sou</div>
+                <!--<div class="term-about">Quem Sou</div>
                 <div class="border-title-about"></div>
-                <div class="card card-about">
-                    <img src="img/doutor.png" class="card-img" alt="post 1">
+                -->
+                <div class="title-about mb-3">
+                    Falando um pouco sobre a minha História Profissional
                 </div>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/1KV5FGC_t3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!--<div class="card card-about">
+                    <img src="img/dr-alan.jpg" class="card-img" alt="Profissional">
+                </div>-->
             </div>
             <div class="col-sm-12 col-md-6 col-lg-7">
                 <div class="padding-about">
-                    <div class="title-about">
-                        Falando um pouco sobre a minha História Profissional</div>
+                    <!--<div class="title-about">
+                        Falando um pouco sobre a minha História Profissional
+                    </div>-->
                     <div class="margin-about">
                         <div class="row">
                             <div class="col-12">

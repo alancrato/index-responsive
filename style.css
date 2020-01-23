@@ -257,7 +257,7 @@ body{
 }
 
 .top-card-footer-blog{
-    margin-top: 100%;
+    margin-top: 105%;
 }
 
 .btn-blog{
@@ -401,6 +401,7 @@ a:hover{
     border-radius: 0;
     border: 0;
     margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .btn-outline-secondary {
@@ -686,7 +687,7 @@ footer ul li a{
         font-size: 1.3rem;
     }
     .top-card-footer-blog {
-        margin-top: 92%;
+        margin-top: 100%;
     }
     .title-blog a {
         font-size: 1.2rem;
@@ -1018,6 +1019,10 @@ footer ul li a{
     .faq-answer {
         font-size: 1.2rem;
     }
+    .title-about {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
 }
 
 @media (max-width: 990px) {
@@ -1186,7 +1191,7 @@ footer ul li a{
         margin-bottom: 2rem;
     }
     .top-card-footer-blog {
-        margin-top: 90%;
+        margin-top: 100%;
     }
     .btn-blog {
         padding: 0.5rem 2rem;
@@ -1276,9 +1281,6 @@ footer ul li a{
     .h4, h4 {
         font-size: 1.2rem;
     }
-    .slick-dots {
-        text-align: left;
-    }
     .btn-group-lg>.btn, .btn-lg {
         padding: 0.8rem 2rem;
         font-size: 1rem;
@@ -1296,6 +1298,9 @@ footer ul li a{
     }
     .lead {
         font-size: 1.2rem;
+    }
+    .slick-initialized .slick-slide {
+        margin-right: 0 !important;
     }
 }
 
@@ -1316,7 +1321,7 @@ footer ul li a{
         font-size: 0.75rem;
     }
     .top-card-footer-blog {
-        margin-top: 95%;
+        margin-top: 98%;
     }
     .btn-blog-right {
         padding: 0.3rem 1.4rem;
@@ -1347,7 +1352,8 @@ footer ul li a{
 
 @media (max-width: 360px) {
     .title-blog a{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 1rem;
     }
     .title-blog-right a{
         font-size: 1.3rem;
@@ -1395,7 +1401,7 @@ footer ul li a{
         font-size: 1rem;
     }
     .top-card-footer-blog {
-        margin-top: 80%;
+        margin-top: 92%;
     }
     .btn-group-sm>.btn, .btn-sm {
         padding: .45rem 2rem;
