@@ -9,7 +9,6 @@
 <div class="album py-5 bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-1"></div>
             <div class="col-sm-12 col-md-5">
                 <div class="card mb-4 shadow-sm">
                     <iframe width="100%" height="250" src="https://www.youtube.com/embed/eLS-MCEj_gc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,7 +37,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-5">
+                <div class="card mb-4 shadow-sm">
+                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/eLS-MCEj_gc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <p class="card-text faq-answer mb-4 pb-1">O que é a Bursite do Ombro? Como tratá-la?</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="https://www.youtube.com/channel/UCatsykwtSfiy1H2UWMSrn1g" target="_blank" class="btn btn-action btn-blog shadow-lg">Ver Canal</a>
+                            </div>
+                            <small class="text-muted">22/01</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
