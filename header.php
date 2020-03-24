@@ -15,7 +15,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fbc13a6ec7.js" crossorigin="anonymous"></script>
-    <link href="style.css?ver=4.0.0" rel="stylesheet">
+    <link href="style.css?ver=5.0.0" rel="stylesheet">
 
     <!--icon -->
     <link href="img/favicon.png" rel="icon" sizes="45x45">

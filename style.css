@@ -527,6 +527,12 @@ a:hover{
     cursor: pointer;
 }
 
+/*doctoralia*/
+
+.doctoralia iframe{
+    position: inherit !important;
+}
+
 /*contact*/
 
 .contact-home{

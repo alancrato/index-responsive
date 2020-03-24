@@ -127,3 +127,13 @@
         </div>
     </div> <!-- end container-->
 </section>
+
+<section class="doctoralia">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a id="zl-url" class="zl-url" href="https://www.doctoralia.com.br/alan-arruda-aragao/ortopedista-traumatologista/fortaleza" rel="nofollow" data-zlw-doctor="alan-arruda-aragao" data-zlw-type="affixed_with_visits" data-zlw-opinion="false" data-zlw-hide-branding="true">Alan Arruda Aragão - Doctoralia.com.br</a>
+            </div>
+        </div>
+    </div>
+</section>
